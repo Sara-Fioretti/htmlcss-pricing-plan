@@ -1,0 +1,90 @@
+body {
+    max-width: 512px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    padding: 20px;
+    max-width: 300px;
+}
+
+
+.card h2 {
+    margin-right: auto;
+}
+
+.card h6 {
+    opacity: 50%;
+    margin-right: auto;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.discount {
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.plan {
+    border-radius: 10px;
+    padding: 2%;
+    width: 200px;
+    align-items: center;
+}
+
+.card strong {
+    font-size: 35px;
+}
+
+.trasparente {
+    opacity: 50%;
+}
+
+/*STILE DELLE SINGOLE CARD*/
+#card-1 {
+    background-color: white;
+    color: black;
+}
+
+#card-2 {
+    background-color: rgb(109, 12, 200);
+    color: white;
+}
+
+#card-3 {
+    background-color: white;
+    color: black;
+}
+
+#plan-1 {
+    background-color: blue;
+    color: white;
+}
+
+#plan-2 {
+    background-color: white;
+    color: rgb(109, 12, 200);
+}
+
+#plan-3 {
+    background-color: rgb(109, 12, 200);
+    color: white;
+}
